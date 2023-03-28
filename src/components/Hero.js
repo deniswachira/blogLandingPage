@@ -9,13 +9,9 @@ export default function Hero() {
           <div className="hero-content text-center text-secondary-content">
             <div className="max-w-lg">
               <h1 className="mb-5 sm:mb-7 text-4xl sm:text-5xl font-bold">
-                Let's make your
-                product a success
+                Let's make your blogging a success with blogify
               </h1>
-              <p className="mb-5 sm:mb-7 sm:text-lg">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-              </p>
-              <button className="btn btn-warning sm:btn-wide">Get Started</button>
+              <button className="btn btn-warning sm:btn-wide"><a href="https://wonderful-field-0b8414a0f.2.azurestaticapps.net/">Get started</a></button>
             </div>
           </div>
         </div>

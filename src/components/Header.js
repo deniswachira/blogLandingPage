@@ -27,11 +27,9 @@ export default function Header() {
                 <li><a href="#!">Home</a></li>
                 <li><a href="#!">Services</a></li>
                 <li><a href="#!">About</a></li>
-                <li><a href="#!">Work</a></li>
-                <li><a href="#!">Case Study</a></li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-2xl">daisyUI</a>
+            <a className="btn btn-ghost normal-case text-2xl">Blogify</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-medium">
@@ -45,7 +43,7 @@ export default function Header() {
           <div className="navbar-end">
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn">
-              {THEMES.length} Themes
+                {THEMES.length} Themes
               </label>
               <ul tabIndex={0} className="dropdown-content mt-1 w-52 max-h-96 overflow-y-auto menu menu-compact p-2  bg-base-200 shadow rounded-box">
                 {
