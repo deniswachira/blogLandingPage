@@ -40,18 +40,6 @@ export default function Header() {
               <li><a href="#!">Case Study</a></li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <div className="dropdown dropdown-end">
-              <label tabIndex={0} className="btn">
-                {THEMES.length} Themes
-              </label>
-              <ul tabIndex={0} className="dropdown-content mt-1 w-52 max-h-96 overflow-y-auto menu menu-compact p-2  bg-base-200 shadow rounded-box">
-                {
-                  THEMES.map((theme, i) => <li key={theme + i}><button data-set-theme={theme} onClick={handleThemeChange} className="font-medium capitalize">{i + 1 + '. ' + theme}</button></li>)
-                }
-              </ul>
-            </div>
-          </div>
         </div>
       </div>
     </header>
